@@ -1,0 +1,143 @@
+.header {
+    background: rgb(0, 0, 0);
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.container__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__list{
+    display: flex;
+    list-style: none;
+}
+.nav__item{
+    margin-right: 30px;
+    color: rgb(228, 228, 228);
+font-family: Holy Union;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.heroblock__title {
+    color: rgb(228, 228, 228);
+font-family: Outfit;
+font-size: 72px;
+font-weight: 400;
+line-height: 91px;
+letter-spacing: 0%;
+text-align: left;
+}
+.heroblock {
+    background-color: black;
+    padding-top: 10px;
+}
+.heroblock__text {
+    color: white;
+}
+.rate__full {
+width: 400px;
+height: 10px;
+background-color: purple;
+border-radius: 30px;
+}
+.rate__done {
+width: 80%;
+height: 100%;
+background-color:grey;
+border-radius: 30px;
+}
+.about__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about__img {
+ width: 65%;   
+}
+.about__title {
+    text-align: center;
+    color: white;
+}
+.about__list {
+    list-style: none;
+    color: white;
+}
+.about {
+    background-color: black;
+    padding-top: 20px;
+}
+.about__item { 
+    color: white;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.video {
+    background-color: black;
+    padding-top: 10px;
+}
+.video__title {
+    color: white;
+    text-align: center;
+}
+.video__video {
+    width: 100%;
+    height: 668px;
+    border: 50px solid transparent;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border-image: linear-gradient(135.29deg, rgb(90, 0, 163) 42.109%,rgb(226, 163, 0) 100.297%);
+    border-image-slice: 1;
+}
+.container__video {
+padding: 70px 0 98px;
+}
+.gallery__img {
+    width: 100%;
+}
+.gallery__item {
+    width: 30%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.gallery__list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-bottom: 0;
+}
+.gallery {
+    background-color: black;
+    padding-top: 10px;
+}
+.gallery__title {
+    color: white;
+    text-align: center;
+}
+.footer__list {
+    list-style: none;
+    display: flex;
+}
+.container__footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer {
+    background-color: black;
+}
+.footer__title {
+    color: white;
+}
+.footer__text {
+    color: white;
+}
+.footer__item {
+    margin-left: 20px;
+}
